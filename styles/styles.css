@@ -7,7 +7,7 @@
     --cor-background: #090E16;
     --cor-principal: #7B4AE2;
     --cor-pricipal-50: #7b4ae280;
-    --cor-pricipal-50: #7b4ae21a;
+    --cor-pricipal-10: #7b4ae21a;
 
     --fonte-principal: 'Raleway', sans-serif;
 }
@@ -18,4 +18,74 @@ body {
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.apresentacao__icons {
+    justify-content: center;
+    display: flex;
+    gap: 1rem;
+}
+
+.apresentacao__conteudo__sudacao {
+    width: 7.625rem;
+    padding: 0.5rem 0.6rem;
+    background-color: var(--cor-pricipal-10);
+    border-radius: 0.5rem;
+    color: var(--cor-principal);
+    font-weight: 700;
+    text-align: center;
+}
+
+.apresentacao__conteudo__titulo {
+    color: var(--branco);
+    font-weight: 800;
+    font-size: 3rem;
+    padding: 1rem 0;
+}
+
+.apresentacao__conteudo__text {
+    color: var(--branco-50);
+    font-size: 1.12rem;
+}
+
+.apresentacao__contato {
+    display: flex;
+    gap: 1rem;
+}
+
+.apresentacao__contato__cv,
+.apresentacao__contato__whatsapp {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    color: var(--cor-pricipal-50);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.apresentacao__contato__whatsapp {
+    border-radius: 0.5rem;
+    border: 1px solid var(--cor-pricipal-50);
+    padding: 0.75rem 0.65rem;
+}
+
+.apresentacao__contato__whatsapp:hover {
+    background-color: var(--cor-pricipal-10);
+}
+
+.apresentacao__contato__cv:hover {
+    color: var(--cor-principal);
 }
