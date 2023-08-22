@@ -38,7 +38,7 @@ body {
     gap: 1rem;
 }
 
-.apresentacao__conteudo__sudacao {
+.tag {
     width: 7.625rem;
     padding: 0.5rem 0.6rem;
     background-color: var(--cor-pricipal-10);
@@ -125,6 +125,32 @@ body {
     font-weight: 400;
 }
 
-.card-trabalhos{
+.card-trabalhos {
     background-color: var(--cor-pricipal-10);
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 1.5rem;
+}
+
+.sobre__imagem {
+    width: 50%;
+    height: 50%;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.sobre__text {
+    color: var(--branco-50);
+    text-align: justify;
+    line-height: 1.5625rem;
+}
+
+.sobre__titulo {
+    padding-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 800;
 }
