@@ -89,3 +89,42 @@ body {
 .apresentacao__contato__cv:hover {
     color: var(--cor-principal);
 }
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    align-items: center;
+}
+
+.cards__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 15.375rem;
+    height: 12.5rem;
+    border-radius: 1rem;
+    border: 1px solid var(--cor-pricipal-50);
+}
+
+.cards__container__card {
+    text-align: center;
+}
+
+.cards__container__card__titulo {
+    color: var(--branco);
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.cards__container__card__text {
+    color: var(--branco-50);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.card-trabalhos{
+    background-color: var(--cor-pricipal-10);
+}
