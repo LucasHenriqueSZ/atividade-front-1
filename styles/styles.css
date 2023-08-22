@@ -1,4 +1,5 @@
 @import url(reset.css);
+@import url(footer.css);
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;800&display=swap');
 
 :root {
@@ -32,7 +33,7 @@ body {
     padding: 2rem;
 }
 
-.apresentacao__icons {
+.icons {
     justify-content: center;
     display: flex;
     gap: 1rem;
