@@ -1,4 +1,5 @@
 @import url(reset.css);
+@import url(header.css);
 @import url(footer.css);
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;800&display=swap');
 
@@ -7,8 +8,9 @@
     --branco-50: #ffffff80;
     --cor-background: #090E16;
     --cor-principal: #7B4AE2;
-    --cor-pricipal-50: #7b4ae280;
-    --cor-pricipal-10: #7b4ae21a;
+    --cor-principal-50: #7b4ae280;
+    --cor-principal-10: #7b4ae21a;
+    --cor-principal-5: #7b4ae20d;
 
     --fonte-principal: 'Raleway', sans-serif;
 }
@@ -42,7 +44,7 @@ body {
 .tag {
     width: 7.625rem;
     padding: 0.5rem 0.6rem;
-    background-color: var(--cor-pricipal-10);
+    background-color: var(--cor-principal-10);
     border-radius: 0.5rem;
     color: var(--cor-principal);
     font-weight: 700;
@@ -71,7 +73,7 @@ body {
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    color: var(--cor-pricipal-50);
+    color: var(--cor-principal-50);
     text-decoration: none;
     font-size: 1rem;
     font-weight: 600;
@@ -79,12 +81,12 @@ body {
 
 .apresentacao__contato__whatsapp {
     border-radius: 0.5rem;
-    border: 1px solid var(--cor-pricipal-50);
+    border: 1px solid var(--cor-principal-50);
     padding: 0.75rem 0.65rem;
 }
 
 .apresentacao__contato__whatsapp:hover {
-    background-color: var(--cor-pricipal-10);
+    background-color: var(--cor-principal-10);
 }
 
 .apresentacao__contato__cv:hover {
@@ -107,7 +109,7 @@ body {
     width: 15.375rem;
     height: 12.5rem;
     border-radius: 1rem;
-    border: 1px solid var(--cor-pricipal-50);
+    border: 1px solid var(--cor-principal-50);
 }
 
 .cards__container__card {
@@ -127,7 +129,7 @@ body {
 }
 
 .card-trabalhos {
-    background-color: var(--cor-pricipal-10);
+    background-color: var(--cor-principal-10);
 }
 
 .sobre {
