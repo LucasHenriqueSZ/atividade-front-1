@@ -27,8 +27,8 @@ body {
 
 hr{
     border: 1px solid var(--cor-principal-10);
-    width: 100vw;   
-    display: none; 
+    width: 100vw;
+    display: none;
 }
 
 .container {
@@ -170,12 +170,21 @@ hr{
     color: var(--branco-50);
     text-align: justify;
     line-height: 1.5625rem;
+    margin-top: 1.5rem;
+}
+
+.sobre__text-desktop{
+    display: none;
 }
 
 .sobre__titulo {
     padding-top: 1rem;
     font-size: 1.5rem;
     font-weight: 800;
+}
+
+.sobre__titulo-desktop{
+    display: none;
 }
 
 .cards__skills{

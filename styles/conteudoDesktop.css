@@ -1,6 +1,6 @@
 @media screen and (min-width: 600px) {
 
-    hr{
+    hr {
         display: block !important;
     }
 
@@ -57,11 +57,11 @@
         justify-content: end;
     }
 
-    .cards__display{
+    .cards__display {
         flex-direction: row !important;
     }
 
-    .cards{
+    .cards {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -70,7 +70,49 @@
         gap: 2rem;
     }
 
-    .cards__skills{
+    .cards__skills {
         display: flex !important;
     }
+
+    .sobre {
+        flex-direction: row !important;
+        gap: 10rem !important;
+        align-items: center;
+        margin: 8.5rem 0;
+        justify-content: center;
+    }
+
+    .sobre__imagem {
+        width: 65% !important;
+        height: 65% !important;
+        max-width: 30rem ;
+        min-width: 10rem;
+        max-height: 31rem;
+        margin: 0 0 !important;
+    }
+
+    .sobre__text-mobile {
+        display: none !important;
+    }
+
+    .sobre__text-desktop {
+        display: block !important;
+    }
+
+    .sobre__titulo-mobile {
+        display: none !important;
+    }
+
+    .sobre__titulo-desktop {
+        display: block !important;
+    }
+
+    .sobre__titulo{
+        font-size: 3rem !important;
+    }
+
+    .sobre__text {
+        font-size: 1.25rem !important;
+    }
+
 }
