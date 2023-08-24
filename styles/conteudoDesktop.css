@@ -57,5 +57,20 @@
         justify-content: end;
     }
 
+    .cards__display{
+        flex-direction: row !important;
+    }
 
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 6.25rem 0;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .cards__skills{
+        display: flex !important;
+    }
 }
