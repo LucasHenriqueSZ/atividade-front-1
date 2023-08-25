@@ -22,12 +22,11 @@ body {
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
-    overflow-x: hidden;
 }
 
 hr{
     border: 1px solid var(--cor-principal-10);
-    width: 100vw;
+    width: 99.9%;
     display: none;
 }
 
@@ -152,6 +151,31 @@ hr{
     background-color: var(--cor-principal-10);
 }
 
+.cards__skills{
+    background-color: var(--cor-principal-10);
+    display: none;
+    gap: 8rem ;
+    width: 48rem;
+    justify-content: space-between;
+    padding: 1.7rem;
+    border-radius: 1rem;
+}
+
+.cards__skills__text{
+    color: var(--cor-principal);
+    text-align: center;
+}
+
+.cards__skills__text > p{
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.cards__skills__text > h3{
+    font-weight: 700;
+    font-size: 2rem;
+}
+
 .sobre {
     display: flex;
     flex-direction: column;
@@ -185,29 +209,4 @@ hr{
 
 .sobre__titulo-desktop{
     display: none;
-}
-
-.cards__skills{
-    background-color: var(--cor-principal-10);
-    display: none;
-    gap: 8rem ;
-    width: 48rem;
-    justify-content: space-between;
-    padding: 1.7rem;
-    border-radius: 1rem;
-}
-
-.cards__skills__text{
-    color: var(--cor-principal);
-    text-align: center;
-}
-
-.cards__skills__text > p{
-   font-weight: 400;
-    font-size: 1rem;
-}
-
-.cards__skills__text > h3{
-    font-weight: 700;
-    font-size: 2rem;
 }

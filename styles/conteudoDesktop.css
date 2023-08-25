@@ -18,6 +18,10 @@
         height: 75vh;
     }
 
+    .apresentacao__avatar{
+        min-width: 7rem;
+    }
+
     .apresentacao_elemento:nth-child(1) {
         order: 2;
     }
