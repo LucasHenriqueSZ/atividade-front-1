@@ -12,13 +12,14 @@
         display: none !important;
     }
 
+    /*--SEÇÃO_1--*/
     .apresentacao {
         flex-direction: row !important;
         align-items: center;
         height: 75vh;
     }
 
-    .apresentacao__avatar{
+    .apresentacao__avatar {
         min-width: 7rem;
     }
 
@@ -61,8 +62,21 @@
         justify-content: end;
     }
 
+    /*--SEÇÃO_2--*/
     .cards__display {
         flex-direction: row !important;
+    }
+
+    .cards__container:nth-child(1) {
+        order: 1;
+    }
+
+    .cards__container:nth-child(2) {
+        order: 3;
+    }
+
+    .cards__container:nth-child(3) {
+        order: 2;
     }
 
     .cards {
@@ -75,7 +89,7 @@
     }
 
     .cards__skills {
-        display: flex !important;
+        display: grid !important;
     }
 
     .sobre {
@@ -86,10 +100,11 @@
         justify-content: center;
     }
 
+    /*--SEÇÃO_3--*/
     .sobre__imagem {
         width: 65% !important;
         height: 65% !important;
-        max-width: 30rem ;
+        max-width: 30rem;
         min-width: 10rem;
         max-height: 31rem;
         margin: 0 0 !important;
@@ -111,7 +126,7 @@
         display: block !important;
     }
 
-    .sobre__titulo{
+    .sobre__titulo {
         font-size: 3rem !important;
     }
 
