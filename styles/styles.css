@@ -1,7 +1,6 @@
 @import url(reset.css);
 @import url(header.css);
 @import url(footer.css);
-@import url(conteudoDesktop.css);
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;700;800&display=swap');
 
 :root {
@@ -216,6 +215,140 @@ hr {
 
 .sobre__titulo-desktop {
     display: none;
+}
+
+@media screen and (min-width: 600px) {
+
+    hr {
+        display: block;
+    }
+
+    section {
+        padding: 0 8.75rem;
+    }
+
+    .container__icons {
+        display: none;
+    }
+
+    .apresentacao {
+        flex-direction: row;
+        align-items: center;
+        height: 75vh;
+    }
+
+    .apresentacao__avatar {
+        min-width: 7rem;
+    }
+
+    .apresentacao_elemento:nth-child(1) {
+        order: 2;
+    }
+
+    .apresentacao_elemento:nth-child(2) {
+        order: 1;
+    }
+
+    .apresentacao_elemento:nth-child(3) {
+        order: 3;
+    }
+
+    .apresentacao__conteudo__titulo {
+        font-size: 3.25rem;
+    }
+
+    .apresentacao__conteudo__text {
+        font-size: 1.25rem;
+    }
+
+    .tag {
+        width: 10rem;
+        font-size: 1.25rem;
+    }
+
+    .apresentacao__conteudo__icons {
+        display: flex;
+        justify-content: flex-start;
+        padding-top: 2rem;
+    }
+
+    .apresentacao_elemento {
+        flex-grow: 1;
+    }
+
+    .apresentacao__contato {
+        justify-content: end;
+    }
+
+    .cards__display {
+        flex-direction: row;
+    }
+
+    .cards__container:nth-child(1) {
+        order: 1;
+    }
+
+    .cards__container:nth-child(2) {
+        order: 3;
+    }
+
+    .cards__container:nth-child(3) {
+        order: 2;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 6.25rem 0;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .cards__skills {
+        display: grid;
+    }
+
+    .sobre {
+        flex-direction: row;
+        gap: 10rem;
+        align-items: center;
+        margin: 8.5rem 0;
+        justify-content: center;
+    }
+
+    .sobre__imagem {
+        width: 65%;
+        height: 65%;
+        max-width: 30rem;
+        min-width: 10rem;
+        max-height: 31rem;
+        margin: 0 0;
+    }
+
+    .sobre__text-mobile {
+        display: none;
+    }
+
+    .sobre__text-desktop {
+        display: block;
+    }
+
+    .sobre__titulo-mobile {
+        display: none;
+    }
+
+    .sobre__titulo-desktop {
+        display: block;
+    }
+
+    .sobre__titulo {
+        font-size: 3rem;
+    }
+
+    .sobre__text {
+        font-size: 1.25rem;
+    }
 }
 
 @media screen and (min-width: 600px) and (max-width: 807px) {
